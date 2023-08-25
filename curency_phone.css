@@ -1,0 +1,36 @@
+nav {
+  font-size: 0.9rem;
+}
+
+nav ul {
+  /*flex-direction:column ;*/
+  margin: 5vh auto;
+}
+
+nav ul li {
+  margin: 1.1vh 1.4vw;
+}
+
+.image {
+  height: 10vh;
+  border-radius: 4vw;
+}
+
+.container button {
+  width: 20vw;
+  padding: 1.4vw 1.3vw;
+  font-size: 0.7rem;
+  box-shadow: 0.4em 0.3rem 0.5em rgb(61, 61, 198);
+}
+
+.table table {
+  width: 70vw;
+  border: 0.7vh solid black;
+  font-size: 1.1rem;
+  padding: 1.1vw;
+  margin-left: 2.4vw;
+}
+
+footer {
+  font-size: 1.1rem;
+}

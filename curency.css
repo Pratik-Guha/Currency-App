@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar portion */
+nav {
+  font-family: "Caprasimo", cursive;
+  display: flex;
+  font-size: 1.4rem;
+  background-color: rgb(188, 103, 82);
+  padding: 1.5vw;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 2.2vw; */
+}
+
+.image {
+  height: 12vh;
+  border-radius: 4vw;
+  /*margin-right:4vw*/
+}
+
+nav ul li {
+  list-style: none;
+  margin: 3vh 3.2vw;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+nav li a:hover {
+  color: rgb(51, 64, 181);
+}
+
+/* container part */
+.container {
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.container h1,
+h2 {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(51, 63, 249);
+}
+
+.container form input[type="number"],
+select,
+label {
+  font-size: 1.2rem;
+  margin-bottom: 5vh;
+  width: 21vw;
+}
+
+.container button {
+  width: 10vw;
+  padding: 0.8vw 0.7vw;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2vh;
+  cursor: pointer;
+  font-size: 0.9rem;
+  box-shadow: 0.4em 0.3rem 0.5em rgb(61, 61, 198);
+}
+
+.table table {
+  text-align: center;
+  width: 70vw;
+  border: 1.2vh solid black;
+  font-size: 1.3rem;
+  padding: 1.2vw 1.5vw;
+  margin-left: 4.4vw;
+}
+
+body {
+  background-color: #d6ab6b;
+}
+
+/* fotter part */
+footer {
+  display: flex;
+  height: 6vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  justify-content: center;
+  align-items: center;
+}

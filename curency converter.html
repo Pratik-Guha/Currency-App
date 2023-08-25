@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Caveat&family=Josefin+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="curency.css">
+    <link rel="stylesheet" media="screen and (max-width:526px)" href="curency_phone.css" >
+   
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://www.mashvisor.com/blog/wp-content/uploads/2019/07/Impact-of-Exchange-Rates-on-Real-Estate.jpg" alt="" class="image">
+        </div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Choose Your Currency</h1>
+        <form action="/googledrive.com" method="get">
+            <label for="quantity">Choose Quantity :</label>
+            <input type="number" name="quantity" id="" min="1" max="10">
+            <label for="currency">Choose Currency :</label>
+            <select name="currency" id="">
+                <option value="INR">Indian Rupees</option>
+                <option value="USD">US DOLLER</option>
+                <option value="EUR">EURO</option>
+            </select>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        <div class="table">
+            <h2>Here are the converted value of different Currency</h2>
+            <div class="maintable">
+                <table>
+                
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Curency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; All rights reserved
+    </footer>
+    <script src="/curency.js"></script>
+</body>
+</html>
